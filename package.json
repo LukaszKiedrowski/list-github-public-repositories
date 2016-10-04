@@ -1,0 +1,28 @@
+{
+  "name": "find-user-repositories",
+  "version": "0.0.1",
+  "author": "Lukasz Kiedrowski",
+  "dependencies": {
+    "react": "^0.15.0",
+    "react-dom": "^0.15.0",
+    "throttle-debounce": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.25.0",
+    "jquery": "^3.1.1",
+    "normalize.css": "^4.2.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-infinite": "^0.9.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.12"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors",
+    "build": "webpack --progress --colors -p"
+  }
+}
